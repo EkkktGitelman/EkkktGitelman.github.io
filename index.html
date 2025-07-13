@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гостева Екатерина - Инженер-конструктор</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="stars-bg"></canvas>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Екатерина Гостева</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#projects" class="nav-link">Проекты</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="highlight">Инженер-конструктор</span><br>
+                    Гостева Екатерина
+                </h1>
+                <p class="hero-subtitle">
+                    На стыке конструкторской точности и производственной прагматики — разрабатываю решения, 
+                    которые не просто работают, а оптимизируют весь цикл от идеи до реализации.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="photo_2025-03-20_19-09-10.jpg" alt="Гостева Екатерина" class="hero-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+Специалист, который видит в чертежах не просто линии, а будущие формы, смыслы и решения. Для меня важно не просто «выполнить ТЗ», а создать конструкцию, тщательно продуманную как с инженерной, так и с эстетической стороны.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Системное мышление</span>
+                        </div>
+                        <div class="feature-desc">умею видеть задачу целиком и продумывать её от замысла до результата</div>
+                        <div class="feature">
+                            <i class="fas fa-user-check"></i>
+                            <span>Ответственность</span>
+                        </div>
+                        <div class="feature-desc">беру на себя контроль за качеством и сроками, не нуждаясь в постоянных напоминаниях</div>
+                        <div class="feature">
+                            <i class="fas fa-people-arrows"></i>
+                            <span>Гибкость</span>
+                        </div>
+                        <div class="feature-desc">легко адаптируюсь к новым условиям, быстро схожусь с командой и заказчиком</div>
+                        <div class="feature">
+                            <i class="fas fa-palette"></i>
+                            <span>Эстетическое чутьё</span>
+                        </div>
+                        <div class="feature-desc">чувствую баланс между функциональностью и визуальной выразительностью</div>
+                        <div class="feature">
+                            <i class="fas fa-eye"></i>
+                            <span>Внимание к деталям</span>
+                        </div>
+                        <div class="feature-desc">замечаю то, что другие упускают, и довожу проект до чистоты</div>
+                        <div class="feature">
+                            <i class="fas fa-search"></i>
+                            <span>Глубина</span>
+                        </div>
+                        <div class="feature-desc">люблю понимать, как всё устроено, и не боюсь копаться в сложных узлах и решениях</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ключевые компетенции -->
+    <section id="competencies" class="competencies">
+        <div class="container">
+            <h2 class="section-title">Ключевые компетенции</h2>
+            <div class="competencies-grid">
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Инженерное проектирование</h3>
+                    <p>Создание конструкций различного назначения (МАФ, ограждения, фермы, КМ, модульные здания, нефтехранилища) с учётом монтажных и логистических реалий.</p>
+                </div>
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Работа в CAD-среде</h3>
+                    <p>Высокий уровень SolidWorks (включая BIM моделирование и макросы), уверенное владение Autodesk Inventor, КОМПАС-3D.</p>
+                </div>
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>ЧПУ и металлообработка</h3>
+                    <p>Программирование и эксплуатация 3-осевых станков, оптимизация УП, подбор инструмента, проведение ТО.</p>
+                </div>
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Проектная документация</h3>
+                    <p>Разработка КД по ЕСКД, подготовка технико-коммерческих предложений, расчет прочности и износостойкости конструкций.</p>
+                </div>
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Производственный менеджмент</h3>
+                    <p>Контроль технических процессов, взаимодействие с заказчиком и производством, подбор материалов.</p>
+                </div>
+                <div class="competency-card">
+                    <div class="card-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Инженерный рендеринг</h3>
+                    <p>Визуализация технических решений в понятной форме для презентаций и презентаций.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Технические навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>CAD/CAM системы</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">SolidWorks (макросы, параметризация)</span>
+                        <span class="skill-item">Autodesk Inventor</span>
+                        <span class="skill-item">КОМПАС-3D</span>
+                        <span class="skill-item">CATIA</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Документация</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">ЕСКД, ГОСТ</span>
+                        <span class="skill-item">Техническая документация</span>
+                        <span class="skill-item">Эксплуатационная документация</span>
+                        <span class="skill-item">Сметы и КП</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Расчеты и анализ</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Расчеты нагрузки</span>
+                        <span class="skill-item">Расчеты прочности</span>
+                        <span class="skill-item">Логистические расчеты</span>
+                        <span class="skill-item">Оперативный анализ</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Производство</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Чтение чертежей</span>
+                        <span class="skill-item">Создание чертежей</span>
+                        <span class="skill-item">3D-моделирование</span>
+                        <span class="skill-item">Производственный цикл</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Портфолио проектов</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Модульные здания</h3>
+                        <p>Проектирование и разработка конструкторской документации для модульных зданий различного назначения.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-oil-can"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Нефтехранилища</h3>
+                        <p>Конструкторские решения для нефтехранилищ с учетом всех требований безопасности и эксплуатации.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Ограждения и МАФ</h3>
+                        <p>Разработка конструкций ограждений и малых архитектурных форм с оптимизацией производства.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Металлоконструкции</h3>
+                        <p>Проектирование ферм и металлоконструкций с учетом монтажных и логистических особенностей.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-note">
+                <p><strong>Портфолио с готовыми проектами доступно по запросу</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Связаться со мной</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Гостева Екатерина</h3>
+                    <p>Инженер-конструктор</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><a href="mailto:Ekkkt.Gosteva@yandex.ru">Ekkkt.Gosteva@yandex.ru</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span><a href="https://wa.me/79017545706" target="_blank">WhatsApp</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Г. Москва</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Гостева Екатерина. Инженер-конструктор.<br>
+            <a class="site-link" href="#" target="_blank">ekkkt-gosteva.ru</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
