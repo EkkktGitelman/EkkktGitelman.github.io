@@ -290,7 +290,7 @@ section {
 .about-features {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 0.7rem;
     background: none;
     border: none;
     margin-top: 2rem;
@@ -303,13 +303,8 @@ section {
     background: #23244d;
     font-size: 1.1rem;
     border: 1.5px solid #3e4a7b;
+    border-radius: 14px;
     border-bottom: none;
-    border-radius: 14px 14px 0 0;
-}
-.feature + .feature-desc {
-    border-top: none;
-    border-radius: 0 0 14px 14px;
-    margin-bottom: 0;
 }
 .feature-desc {
     background: #23244d;
@@ -318,9 +313,13 @@ section {
     padding: 0 1.2rem 1.1rem 3.2rem;
     line-height: 1.5;
     border: 1.5px solid #3e4a7b;
+    border-radius: 14px;
+    margin-bottom: 0.5rem;
+}
+.feature + .feature-desc {
     border-top: none;
-    margin-bottom: 0;
-    margin-top: -0.5rem;
+    border-radius: 0 0 14px 14px;
+    margin-bottom: 0.5rem;
 }
 .about-features > .feature:first-child {
     border-radius: 14px 14px 0 0;
@@ -340,7 +339,7 @@ section {
 }
 
 .feature:hover {
-    transform: translateY(-5px);
+    transform: none;
 }
 
 .feature i {
