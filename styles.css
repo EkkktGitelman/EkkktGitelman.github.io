@@ -290,7 +290,7 @@ section {
 .about-features {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.7rem;
+    gap: 0;
     background: none;
     border: none;
     margin-top: 2rem;
@@ -301,22 +301,32 @@ section {
     gap: 1rem;
     padding: 1.1rem 1.2rem 0.3rem 1.2rem;
     background: #23244d;
-    border-radius: 14px 14px 0 0;
     font-size: 1.1rem;
     border: 1.5px solid #3e4a7b;
     border-bottom: none;
+    border-radius: 14px 14px 0 0;
+}
+.feature + .feature-desc {
+    border-top: none;
+    border-radius: 0 0 14px 14px;
+    margin-bottom: 0;
 }
 .feature-desc {
     background: #23244d;
     color: #b3b8e6;
     font-size: 0.98rem;
     padding: 0 1.2rem 1.1rem 3.2rem;
-    border-radius: 0 0 14px 14px;
-    margin-bottom: 0.5rem;
-    margin-top: -0.5rem;
     line-height: 1.5;
     border: 1.5px solid #3e4a7b;
     border-top: none;
+    margin-bottom: 0;
+    margin-top: -0.5rem;
+}
+.about-features > .feature:first-child {
+    border-radius: 14px 14px 0 0;
+}
+.about-features > .feature-desc:last-child {
+    border-radius: 0 0 14px 14px;
 }
 @media (max-width: 768px) {
     .feature, .feature-desc {
